@@ -1,4 +1,3 @@
-# Print the sum of the numbers from 1 to 100. (1 + 2 + 3 + ... + 100 = 5050)
 """int sum = 0;
 foreach in (sum)
 {
@@ -8,12 +7,33 @@ sum = sum - 1;
 """while sum < 100:
     sum = sum + sum
 for i in range(100):"""
-sum = 0
-for i in range(100):
-    i = 1
+
+def sumFuncIgnoreTest():
+    sum = 0
+    for i in range(100):
+        sum = sum + 1
     # i <= 100
-    print(i + 1)
+        print(sum)
+        pass
     
+def sumFuncTestAgain():
+    sum = 0
+    
+    while sum < 100:
+        for i in range(100):
+            sum = sum + 1
+            sum + sum
+            print(sum)
+            
+# Print the sum of the numbers from 1 to 100. (1 + 2 + 3 + ... + 100 = 5050)
+def sumFunc():
+    sum = 0
+    for i in range(1, 101):
+        sum = sum + i  # Add i, not 1!
+    print(sum)
+
+sumFunc()
+
          # todo Create a program that spells a word backwards._
 
          # While loop
