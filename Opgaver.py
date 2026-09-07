@@ -50,11 +50,10 @@ def spellBackwards():
     backwards = word[::-1]
     print(backwards)
     # y = for i in x
-
     for letter in backwards:
         print(letter)  # Add each letter to the FRONT
 
-spellBackwards()
+# spellBackwards()
 
          # While loop
          # todo Create a while loop that prints "Hello World!" 6 times.
