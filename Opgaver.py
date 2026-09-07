@@ -32,10 +32,13 @@ def sumFunc():
         sum = sum + i  # Add i, not 1!
     print(sum)
 
-sumFunc()
-
          # todo Create a program that spells a word backwards._
+def spellBackwards():
+    x = input("Type a word: ")
+    y = for i in x
 
+spellBackwards()
+    
          # While loop
          # todo Create a while loop that prints "Hello World!" 6 times.
           
