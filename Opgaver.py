@@ -33,12 +33,29 @@ def sumFunc():
     print(sum)
 
          # todo Create a program that spells a word backwards._
+"""word = input("Type a word: ")
+    backwards = word[::-1]
+    print(backwards)
+    # y = for i in x
+    backwards = ""
+
+    for letter in word:
+        backwards = letter + backwards  # Add each letter to the FRONT
+         print(backwards)
+         """
+
 def spellBackwards():
-    x = input("Type a word: ")
-    y = for i in x
+    word = input("Type a word: ")
+    print(f"You have picked the word '{word}'")
+    backwards = word[::-1]
+    print(backwards)
+    # y = for i in x
+
+    for letter in backwards:
+        print(letter)  # Add each letter to the FRONT
 
 spellBackwards()
-    
+
          # While loop
          # todo Create a while loop that prints "Hello World!" 6 times.
           
