@@ -57,10 +57,22 @@ def spellBackwards():
 
          # While loop
          # todo Create a while loop that prints "Hello World!" 6 times.
-          
          # todo Make a while loop that prints the numbers from 0 to 12, in the console.
-         # todo Make a program that asks the user to type "hello", every time the user does not type "hello", the program should print the user's words and ask the user to type "hello". When the user types "hello", the program stops.
+         
+# Make a program that asks the user to type "hello", every time the user does not type "hello", the program should print the user's words and ask the user to type "hello". When the user types "hello", the program stops.
+def sayHello():
+    x = input("Type hello: ")
+    while x.lower() != "hello": # while x != "hello" and x != "Hello" and x != "HELLO":
+        print(f"You have typed '{x}', that is incorrect! Try again.")
+        x = input("Type hello: ")
+    print("You've typed correctly! Hello World! Exiting program.")
+            
+# sayHello()
+    
+         
          # todo Make a program that asks the user for a password. If the user types "secret", the program writes "Access granted", otherwise it asks again.
+         
+         
          # todo Make a program that asks the user for a number. If the number is less than 0, the program asks again. When the user enters a positive number, the program stops.
          # If-else statement
          # todo Make a program where you enter an age, and it prints:
