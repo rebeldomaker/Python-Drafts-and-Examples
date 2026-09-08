@@ -4,6 +4,8 @@ foreach in (sum)
     Console.WriteLine(sum);
 sum = sum - 1;
 }"""
+from selectors import SelectSelector
+
 """while sum < 100:
     sum = sum + sum
 for i in range(100):"""
@@ -75,10 +77,25 @@ def sayHello():
          
          # todo Make a program that asks the user for a number. If the number is less than 0, the program asks again. When the user enters a positive number, the program stops.
          # If-else statement
-         # todo Make a program where you enter an age, and it prints:
-         # "You are a teenager", if the age is between 13 and 19.
-         # "You are an adult", if over 19.
-         # "You are a child", if under 13
+def minor(): # program where you enter an age, and it prints: 
+    x = int(input("Type your age: "))
+        
+    if x == range(14, 19): # FIXME
+        print("You are a teenager")
+        
+    elif x <= 13:
+        print("You are a child")
+            
+    else:
+        x > 19
+        print("You are an adult")
+                
+minor()
+         
+
+        
+
+        
          # todo Make a program where the user enters a number. If the number is divisible by 2, say "Even number", otherwise "Odd numbers".
           
          # todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
