@@ -79,23 +79,20 @@ def sayHello():
          # If-else statement
 def minor(): # program where you enter an age, and it prints: 
     x = int(input("Type your age: "))
-        
-    if x == range(14, 19): # FIXME
+
+    if 14 <= x <= 19: 
+        """if x in [14, 17, 19]:
+    if 14 <= x <= 17:"""
         print("You are a teenager")
-        
+
     elif x <= 13:
         print("You are a child")
-            
+
     else:
-        x > 19
         print("You are an adult")
                 
-minor()
-         
+# minor()
 
-        
-
-        
          # todo Make a program where the user enters a number. If the number is divisible by 2, say "Even number", otherwise "Odd numbers".
           
          # todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
