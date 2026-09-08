@@ -94,6 +94,15 @@ def minor(): # program where you enter an age, and it prints:
 # minor()
 
          # todo Make a program where the user enters a number. If the number is divisible by 2, say "Even number", otherwise "Odd numbers".
+def evenNum():
+    x = int(input("Enter a number: "))
+    if x % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+
+evenNum()
+    
           
          # todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
           
