@@ -124,7 +124,22 @@ def largestNum():
           
          # Extra tasks
          # todo Mini-login system: The user must enter a username and password. Check if it matches the correct username and password, and grant access.
-          
+def login():
+    print("< Create an Account >")
+    username = input("Create a username: ")
+    password = input("Choose your password: ")
+    print("[ Login Screen ]")
+    u = input("Enter username: ")
+    p = input("Enter password: ")
+    
+    if u == username and p == password:
+        print("Logged in. Access granted.")
+    else:
+        print("Invalid username or password. Try again.")
+        
+login()
+    
+    
          # todo Calculator: The user selects an operation (e.g. +, -, *, /) and enters two numbers. The program displays the result.
           
          # todo Guess a number: The computer chooses a random number between 1 and 10. The user must guess it. The program tells you if it is too high, low or correct.
