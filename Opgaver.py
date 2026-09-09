@@ -111,6 +111,9 @@ evenNum()
          # todo Make a program that checks whether a letter is a vowel or a consonant.
           
          # todo Make a program that finds the largest of 3 numbers.
+def largestNum():
+    x = int(input("Enter a number: "))
+    
           
          # Extra tasks
          # todo Mini-login system: The user must enter a username and password. Check if it matches the correct username and password, and grant access.
