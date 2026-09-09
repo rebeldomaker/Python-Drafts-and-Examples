@@ -101,7 +101,7 @@ def evenNum():
     else:
         print("Odd number")
 
-evenNum()
+# evenNum()
     
           
          # todo Make a simple quiz question: "What is the capital of Denmark?" If the answer is "Copenhagen", then print "Correct!", otherwise "Incorrect!".
@@ -112,8 +112,15 @@ evenNum()
           
          # todo Make a program that finds the largest of 3 numbers.
 def largestNum():
-    x = int(input("Enter a number: "))
-    
+    x = [] # empty list init
+    for i in range(3): # asks 3 times for input, appends each input from user to the list
+        num = int(input("Enter a number: "))
+        x.append(num) # adds to list
+    largest = max(x) # finds the largest number
+    smallest = min(x)
+    print(f"{largest} is the largest number and {smallest} is the smallest number.")
+        
+# largestNum()
           
          # Extra tasks
          # todo Mini-login system: The user must enter a username and password. Check if it matches the correct username and password, and grant access.
@@ -122,8 +129,13 @@ def largestNum():
           
          # todo Guess a number: The computer chooses a random number between 1 and 10. The user must guess it. The program tells you if it is too high, low or correct.
           
-         # todo Check if a number is even or odd.
-          
+# todo Check if a number is even or odd.
+def oddNum(): # todo fixme
+    x = [] # empty list init
+    for i in range(3): # asks 3 times for input, appends each input from user to the list
+        num = int(input("Enter a number: "))
+        x.append(num) # adds to list
+         
          # Array
          # todo Create an array that contains 4 of your classmates' names.
          
